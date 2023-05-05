@@ -1,0 +1,131 @@
+/*Cabeçalho*/
+header{
+    background-color: #CE0909;
+    border-radius: 1em;
+}
+.verde{
+   font-size: 100px;
+   color: #28aa26;
+}
+.branco{
+   font-size: 100px;
+   color: #ffffff;
+}
+.verde:hover{
+    color: #ffffff;
+}
+.branco:hover{
+    color: #28aa26;
+}
+.cardapio{
+    background-color: #861414;
+    color: #ffffff;
+    border: none;
+    font-size: larger;
+    border-radius: 1em;
+}
+.pedido{
+   background-color: #861414;
+    color: #ffffff;
+    border: none;
+    font-size: larger;
+    border-radius: 1em; 
+}
+.cardapio:hover{
+    background-color: #630f0f;
+    
+}
+.pedido:hover{
+    background-color: #630f0f;
+   
+}
+.imagemp:hover{
+    width: 250px;
+}
+.cabecalho{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.menupedidos{
+ display: flex; 
+ align-items: center; justify-content: center;   
+}
+/*Corpo do página*/
+body{
+    background-color: #ffd59eb2;
+}
+/*Cardapio*/
+.cdp{
+    font-size: 75px;
+    color:#28aa26;
+}
+.cdp:hover{
+    color: #1f7c1e;
+}
+.saboresc{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.tipos{
+    font-size: 60px;
+    color: #ffffff;
+    background-color: #630f0f;
+   
+}
+/*Configurações das DIV'S das pizzas*/
+.pizza{
+    display: flex;
+    align-items: center;   
+    margin: 20px;
+    border-radius: 1em;
+}
+.texto{
+    font-size: 25px;
+}
+.pizza:hover{
+    color: #ffffff;
+    background-color: #cc9439;
+}
+.pizzam{
+    border-radius: 1em;
+}
+/*Botões de tamanho das pizzas*/
+.button{
+display: flex;
+border-radius: 1em;
+background-color: #207c1e00;
+border: none;
+color: #990909;
+}
+.button:hover::before{
+    background-color: #861414;
+    color: #ffffff;
+    border: 2px solid black;
+    content: attr(title);
+    text-align: center;
+}
+.button:hover{
+    opacity: 1;
+    transition: opacity 0s ease-in-out;  
+    color: #cc9439;
+}
+/*Roda pé*/
+fieldset{
+    border: none;
+    background-color: #CE0909;
+    border-radius: 1em;
+
+}
+.oq{
+    color: #ffffff;
+    font-family: arial;
+    font-size: 20px;
+}
+.se{
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 30px;
+
+}
